@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-05 22:25:48.987857",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "certificates",
+  "is_required"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "is_required",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "is Required"
+  },
+  {
+   "fieldname": "certificates",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Certificates"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-05 23:17:55.114244",
+ "modified_by": "Administrator",
+ "module": "Students Affairs",
+ "name": "Student Certificates Required",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

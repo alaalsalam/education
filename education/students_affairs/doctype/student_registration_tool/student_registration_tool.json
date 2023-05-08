@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "creation": "2023-01-27 03:19:34.788727",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_batch_name",
+  "program",
+  "column_break_3",
+  "academic_year",
+  "academic_term",
+  "section_break_5",
+  "get_students",
+  "students",
+  "enroll_students"
+ ],
+ "fields": [
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Academic Year",
+   "options": "Academic Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "academic_term",
+   "fieldtype": "Link",
+   "label": "Academic Term",
+   "options": "Academic Term"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "get_students",
+   "fieldtype": "Button",
+   "label": "Get Students"
+  },
+  {
+   "fieldname": "students",
+   "fieldtype": "Table",
+   "label": "Students",
+   "options": "Program Enrollment Tool Student"
+  },
+  {
+   "fieldname": "enroll_students",
+   "fieldtype": "Button",
+   "label": "Enroll Students"
+  },
+  {
+   "fieldname": "student_batch_name",
+   "fieldtype": "Link",
+   "label": "Student Batch Name",
+   "options": "Student Batch Name"
+  }
+ ],
+ "hide_toolbar": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-03-03 01:47:13.112772",
+ "modified_by": "Administrator",
+ "module": "Students Affairs",
+ "name": "Student Registration Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Education Manager",
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "creation": "2016-01-04 14:45:36.576933",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "academic_year",
+  "get_rooms",
+  "column_break_4",
+  "program",
+  "students_out_groups",
+  "number_of_students",
+  "section_break_4",
+  "rooms"
+ ],
+ "fields": [
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Academic Year",
+   "options": "Academic Year",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "get_rooms",
+   "fieldtype": "Button",
+   "label": "Get Rooms"
+  },
+  {
+   "fieldname": "rooms",
+   "fieldtype": "Table",
+   "label": "Rooms",
+   "options": "Student Group Creation Tool Rooms",
+   "reqd": 1
+  },
+  {
+   "fieldname": "students_out_groups",
+   "fieldtype": "Int",
+   "label": "Students out Groups",
+   "read_only": 1
+  },
+  {
+   "fieldname": "number_of_students",
+   "fieldtype": "Int",
+   "label": "Number of Students",
+   "read_only": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-02-15 01:58:19.881581",
+ "modified_by": "Administrator",
+ "module": "Students Affairs",
+ "name": "Student Group Creation Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Education Manager",
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

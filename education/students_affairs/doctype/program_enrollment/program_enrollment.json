@@ -1,0 +1,279 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "EDU-ENR-.YYYY.-.#####",
+ "creation": "2015-12-02 12:58:32.916080",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "student",
+  "student_name",
+  "enrollment_date",
+  "column_break_4",
+  "student_batch_name",
+  "program",
+  "student_group",
+  "academic_year",
+  "academic_term",
+  "image",
+  "section_break_vsaj",
+  "student_category",
+  "column_break_ebuo",
+  "boarding_student",
+  "enrolled_courses",
+  "fees_tab",
+  "section_break_7",
+  "fee_structure",
+  "components",
+  "section_break_t1ti3",
+  "amount",
+  "grand_total",
+  "grand_total_in_words",
+  "column_break_wps4p",
+  "discount_amount_component",
+  "discount_percentage",
+  "discount_amount",
+  "note",
+  "courses_tab",
+  "courses",
+  "amended_from",
+  "connections_tab"
+ ],
+ "fields": [
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "label": "Student",
+   "options": "Student",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "student.student_name",
+   "fieldname": "student_name",
+   "fieldtype": "Read Only",
+   "in_global_search": 1,
+   "label": "Student Name",
+   "read_only": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "enrollment_date",
+   "fieldtype": "Date",
+   "label": "Enrollment Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Academic Year",
+   "options": "Academic Year",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "academic_term",
+   "fieldtype": "Link",
+   "label": "Academic Term",
+   "options": "Academic Term"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "fieldname": "section_break_vsaj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "student_category",
+   "fieldtype": "Link",
+   "label": "Student Category",
+   "options": "Student Category"
+  },
+  {
+   "fetch_from": "program.student_batch_name",
+   "fieldname": "student_batch_name",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "label": "Student Batch",
+   "options": "Student Batch Name"
+  },
+  {
+   "fieldname": "column_break_ebuo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "description": "Check this if the Student is residing at the Institute's Hostel.",
+   "fieldname": "boarding_student",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Boarding Student",
+   "read_only": 1
+  },
+  {
+   "fieldname": "enrolled_courses",
+   "fieldtype": "Section Break",
+   "label": "Enrolled courses"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "courses",
+   "fieldtype": "Table",
+   "label": "Courses",
+   "options": "Program Enrollment Course"
+  },
+  {
+   "fieldname": "fees_tab",
+   "fieldtype": "Tab Break",
+   "label": "Fees"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Program Enrollment",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "connections_tab",
+   "fieldtype": "Tab Break",
+   "label": "Connections",
+   "show_dashboard": 1
+  },
+  {
+   "fieldname": "fee_structure",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Fee Structure",
+   "options": "Fee Structure"
+  },
+  {
+   "fieldname": "components",
+   "fieldtype": "Table",
+   "label": "Components",
+   "options": "Fee Component Enrollment"
+  },
+  {
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "label": "Grand Total"
+  },
+  {
+   "fieldname": "grand_total_in_words",
+   "fieldtype": "Data",
+   "label": "In Words",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "student_group",
+   "fieldtype": "Link",
+   "label": "Student Group",
+   "options": "Student Group"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "discount_percentage",
+   "fieldtype": "Percent",
+   "label": "Discount (%)"
+  },
+  {
+   "default": "0",
+   "fieldname": "discount_amount",
+   "fieldtype": "Currency",
+   "label": "Discount Amount"
+  },
+  {
+   "fieldname": "column_break_wps4p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_t1ti3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "discount_amount_component",
+   "fieldtype": "Currency",
+   "label": "Discount Amount Component"
+  },
+  {
+   "fieldname": "courses_tab",
+   "fieldtype": "Tab Break",
+   "label": "Courses"
+  }
+ ],
+ "image_field": "image",
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-03-05 01:16:19.114043",
+ "modified_by": "Administrator",
+ "module": "Students Affairs",
+ "name": "Program Enrollment",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Academics User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "LMS User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "student_name"
+}

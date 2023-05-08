@@ -1,0 +1,151 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Registration</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"\u0639\u0645\u0644\u064a\u0629 \u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0637\u0627\u0644\u0628 \",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"\u0639\u0645\u0644\u064a\u0629 \u062a\u0648\u0632\u064a\u0639 \u0627\u0644\u0645\u062f\u0631\u0633\u064a\u0646 \",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u0623\u0631\u0634\u064a\u0641 \",\"col\":4}}]",
+ "creation": "2023-01-20 01:29:52.464392",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "external-link",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Registration",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0639\u0645\u0644\u064a\u0629 \u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0637\u0627\u0644\u0628 ",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062a\u0642\u062f\u064a\u0645 \u0627\u0644\u0637\u0627\u0644\u0628 \u0627\u0644\u0645\u062f\u0631\u0633\u064a ",
+   "link_count": 0,
+   "link_to": "Student Applicant",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0637\u0627\u0644\u0628 \u0627\u0644\u0645\u062f\u0631\u0633\u064a ",
+   "link_count": 0,
+   "link_to": "Program Enrollment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062a\u0648\u0632\u064a\u0639 \u0627\u0644\u0637\u0644\u0627\u0628 \u0641\u064a \u0627\u0644\u0634\u0639\u0628",
+   "link_count": 0,
+   "link_to": "Student Group Creation Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0623\u0631\u0634\u064a\u0641 ",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0623\u0631\u0634\u064a\u0641 \u0627\u0644\u0637\u0644\u0627\u0628 ",
+   "link_count": 0,
+   "link_to": "Student",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0623\u0631\u0634\u064a\u0641 \u0627\u0644\u0645\u062f\u0631\u0633\u064a\u0646",
+   "link_count": 0,
+   "link_to": "Instructor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0623\u0631\u0634\u064a\u0641 \u0623\u0648\u0644\u064a\u0627\u0621 \u0627\u0644\u0627\u0645\u0648\u0631",
+   "link_count": 0,
+   "link_to": "Guardian",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0639\u0645\u0644\u064a\u0629 \u062a\u0648\u0632\u064a\u0639 \u0627\u0644\u0645\u062f\u0631\u0633\u064a\u0646 ",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0634\u0639\u0628 \u0627\u0644\u062f\u0631\u0627\u0633\u064a\u0629 ",
+   "link_count": 0,
+   "link_to": "Student Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0645\u062f\u0631\u0633\u064a\u0646",
+   "link_count": 0,
+   "link_to": "Instructor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u062f\u0627\u0629 \u0627\u0644\u062c\u062f\u0648\u0644 \u0627\u0644\u0645\u062f\u0631\u0633\u064a",
+   "link_count": 0,
+   "link_to": "Course Scheduling Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062c\u062f\u0648\u0644 \u0627\u0644\u0645\u062f\u0631\u0633\u064a ",
+   "link_count": 0,
+   "link_to": "Course Schedule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-02-14 23:02:33.966408",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "Registration",
+ "owner": "Administrator",
+ "parent_page": "Education",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 13.0,
+ "shortcuts": [],
+ "title": "Registration"
+}

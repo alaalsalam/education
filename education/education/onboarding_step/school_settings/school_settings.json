@@ -1,0 +1,22 @@
+{
+ "action": "Show Form Tour",
+ "action_label": "Let's review existing School info",
+ "creation": "2023-02-02 00:14:53.150509",
+ "description": "# School Settings ts\n\nWith the company, a host of fixed asset accounts are pre-configured. To ensure your asset transactions are leading to correct accounting entries, you can review and set up following asset accounts as per your business  requirements.\n - Fixed asset accounts (Asset account)\n - Accumulated depreciation\n - Capital Work in progress (CWIP) account\n - Asset Depreciation account (Expense account)",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 1,
+ "is_skipped": 0,
+ "modified": "2023-02-02 00:14:53.150509",
+ "modified_by": "Administrator",
+ "name": "School Settings",
+ "owner": "Administrator",
+ "path": "app/education/view/tree",
+ "reference_document": "School info",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "School Settings ",
+ "validate_action": 1
+}

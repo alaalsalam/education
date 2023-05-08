@@ -1,0 +1,38 @@
+{
+ "allow_roles": [
+  {
+   "role": "Website Manager"
+  }
+ ],
+ "creation": "2023-02-02 01:58:14.511342",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://docs.erpnext.com/docs/user/manual/en/website",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2023-02-02 01:58:14.511342",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "M\u2764\ufe0f",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Introduction to Website"
+  },
+  {
+   "step": "Create Blogger"
+  },
+  {
+   "step": "Add Blog Category"
+  },
+  {
+   "step": "Enable Website Tracking"
+  },
+  {
+   "step": "Web Page Tour"
+  }
+ ],
+ "subtitle": "Blogs, Website View Tracking, and more.",
+ "success_message": "Your website is all set up!",
+ "title": "Let's Set Up Your Website."
+}

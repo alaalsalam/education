@@ -1,0 +1,184 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{student_group_name}",
+ "creation": "2015-09-07 12:55:52.072792",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "academic_year",
+  "student_group_name",
+  "room",
+  "class_division",
+  "number_of_students",
+  "seating_capacity",
+  "column_break_3",
+  "academic_term",
+  "program",
+  "disabled",
+  "max_strength",
+  "students_tab",
+  "section_break_6",
+  "students",
+  "instructors_tab",
+  "section_break_12",
+  "instructors",
+  "connections_tab",
+  "updated"
+ ],
+ "fields": [
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Academic Year",
+   "options": "Academic Year",
+   "reqd": 1
+  },
+  {
+   "description": "\u0627\u0633\u0645 \u0627\u0644\u0634\u0639\u0628\u0647",
+   "documentation_url": "http://185.187.170.69/#login",
+   "fieldname": "student_group_name",
+   "fieldtype": "Data",
+   "label": "Student Group Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "description": "Set 0 for no limit",
+   "fetch_from": "room.max_strength",
+   "fieldname": "max_strength",
+   "fieldtype": "Int",
+   "label": "Max Strength"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "academic_term",
+   "fieldtype": "Link",
+   "label": "Academic Term",
+   "options": "Academic Term"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "label": "Disabled"
+  },
+  {
+   "depends_on": "eval:!doc.__islocal",
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break",
+   "label": "Students"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "students",
+   "fieldtype": "Table",
+   "label": "Students",
+   "options": "Student Group Student"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break",
+   "label": "Instructors"
+  },
+  {
+   "fieldname": "instructors",
+   "fieldtype": "Table",
+   "label": "Instructors",
+   "options": "Student Group Instructor"
+  },
+  {
+   "fetch_from": "room.seating_capacity",
+   "fieldname": "seating_capacity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Seating Capacity"
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "Room",
+   "options": "Room"
+  },
+  {
+   "fieldname": "number_of_students",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Number of Students"
+  },
+  {
+   "fetch_from": "room.class_division",
+   "fetch_if_empty": 1,
+   "fieldname": "class_division",
+   "fieldtype": "Link",
+   "label": "Class Division",
+   "options": "Class Devision"
+  },
+  {
+   "fieldname": "students_tab",
+   "fieldtype": "Tab Break",
+   "label": "Students"
+  },
+  {
+   "fieldname": "instructors_tab",
+   "fieldtype": "Tab Break",
+   "label": "Instructors"
+  },
+  {
+   "fieldname": "connections_tab",
+   "fieldtype": "Tab Break",
+   "label": "Connections"
+  },
+  {
+   "default": "0",
+   "fieldname": "updated",
+   "fieldtype": "Check",
+   "label": "Updated"
+  }
+ ],
+ "links": [],
+ "modified": "2023-03-08 13:37:49.142104",
+ "modified_by": "Administrator",
+ "module": "Students Affairs",
+ "name": "Student Group",
+ "naming_rule": "By script",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "read": 1,
+   "role": "Instructor"
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Academics User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "program, room,class_division",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

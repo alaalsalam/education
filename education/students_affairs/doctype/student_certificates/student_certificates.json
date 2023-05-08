@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-01-19 23:57:03.255295",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "certificate",
+  "certificate_image",
+  "school",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "certificate_image",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Certificate Image"
+  },
+  {
+   "fieldname": "school",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "School"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "certificate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Certificate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-03 03:09:56.518845",
+ "modified_by": "Administrator",
+ "module": "Students Affairs",
+ "name": "Student Certificates",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,189 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-29 00:51:46.020440",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gerneral_info_section",
+  "country",
+  "minstry",
+  "column_break_x4xzh",
+  "office",
+  "gov",
+  "speical_info_section",
+  "school_name",
+  "foundation_data",
+  "manger_name",
+  "adderes",
+  "website",
+  "email",
+  "column_break_8b79l",
+  "phone",
+  "phone_2",
+  "fax",
+  "staff_section",
+  "casher",
+  "acting_manger",
+  "column_break_clouv",
+  "casher_phone",
+  "acting_manger_phone",
+  "information_section",
+  "time_class_limit",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "gerneral_info_section",
+   "fieldtype": "Section Break",
+   "label": "Gerneral info"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "minstry",
+   "fieldtype": "Data",
+   "label": "Minstry"
+  },
+  {
+   "fieldname": "column_break_x4xzh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "office",
+   "fieldtype": "Data",
+   "label": "Office"
+  },
+  {
+   "fieldname": "gov",
+   "fieldtype": "Data",
+   "label": "Gov"
+  },
+  {
+   "fieldname": "speical_info_section",
+   "fieldtype": "Section Break",
+   "label": "Speical info"
+  },
+  {
+   "fieldname": "school_name",
+   "fieldtype": "Data",
+   "label": "School name"
+  },
+  {
+   "fieldname": "foundation_data",
+   "fieldtype": "Data",
+   "label": "Foundation data"
+  },
+  {
+   "fieldname": "manger_name",
+   "fieldtype": "Data",
+   "label": "Manger name"
+  },
+  {
+   "fieldname": "adderes",
+   "fieldtype": "Data",
+   "label": "Adderes"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_8b79l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Int",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "phone_2",
+   "fieldtype": "Int",
+   "label": "Phone 2"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Int",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "staff_section",
+   "fieldtype": "Section Break",
+   "label": "Staff"
+  },
+  {
+   "fieldname": "casher",
+   "fieldtype": "Data",
+   "label": "Casher"
+  },
+  {
+   "fieldname": "acting_manger",
+   "fieldtype": "Data",
+   "label": "Acting Manger"
+  },
+  {
+   "fieldname": "column_break_clouv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "casher_phone",
+   "fieldtype": "Data",
+   "label": "Casher Phone "
+  },
+  {
+   "fieldname": "acting_manger_phone",
+   "fieldtype": "Data",
+   "label": "Acting Manger Phone"
+  },
+  {
+   "fieldname": "information_section",
+   "fieldtype": "Section Break",
+   "label": "Information"
+  },
+  {
+   "fieldname": "time_class_limit",
+   "fieldtype": "Time",
+   "label": "Time class limit"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-01-29 00:51:46.020440",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "School info",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

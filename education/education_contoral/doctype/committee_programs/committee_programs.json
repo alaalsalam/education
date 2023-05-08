@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-20 02:02:37.046548",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "program",
+  "total_program_students",
+  "remaining_students",
+  "portion",
+  "first_index",
+  "last_index"
+ ],
+ "fields": [
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "Program",
+   "options": "Program"
+  },
+  {
+   "fieldname": "total_program_students",
+   "fieldtype": "Int",
+   "label": "Total Program Students"
+  },
+  {
+   "fieldname": "remaining_students",
+   "fieldtype": "Int",
+   "label": "Remaining Students"
+  },
+  {
+   "fieldname": "portion",
+   "fieldtype": "Int",
+   "label": "Portion"
+  },
+  {
+   "fieldname": "first_index",
+   "fieldtype": "Int",
+   "label": "First index"
+  },
+  {
+   "fieldname": "last_index",
+   "fieldtype": "Int",
+   "label": "Last Index"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-03 00:27:11.815141",
+ "modified_by": "Administrator",
+ "module": "Education Contoral",
+ "name": "Committee Programs",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

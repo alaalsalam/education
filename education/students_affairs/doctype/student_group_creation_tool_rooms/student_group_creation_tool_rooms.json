@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "creation": "2016-01-04 15:03:57.940079",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_group_name",
+  "room",
+  "seating_capacity",
+  "max_strength",
+  "column_break_3",
+  "number_of_students",
+  "class_division"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "room.room_name",
+   "fetch_if_empty": 1,
+   "fieldname": "student_group_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Group Name",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "room.seating_capacity",
+   "fetch_if_empty": 1,
+   "fieldname": "max_strength",
+   "fieldtype": "Int",
+   "label": "Max Strength"
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Room",
+   "options": "Room"
+  },
+  {
+   "fetch_from": "room.seating_capacity",
+   "fetch_if_empty": 1,
+   "fieldname": "seating_capacity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Seating Capacity"
+  },
+  {
+   "fieldname": "number_of_students",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Number of Students"
+  },
+  {
+   "fetch_from": "room.class_division",
+   "fetch_if_empty": 1,
+   "fieldname": "class_division",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Class Division",
+   "options": "Class Devision",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-03 00:30:08.044250",
+ "modified_by": "Administrator",
+ "module": "Students Affairs",
+ "name": "Student Group Creation Tool Rooms",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

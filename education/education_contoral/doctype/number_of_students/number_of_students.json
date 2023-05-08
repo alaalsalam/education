@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format: {program_name} ({total_number_of_students}) ",
+ "creation": "2023-01-28 01:46:12.345568",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "program_name",
+  "department",
+  "hero_image",
+  "column_break_3",
+  "program_abbreviation",
+  "total_number_of_students",
+  "students_in_groups",
+  "students_out_of_groups"
+ ],
+ "fields": [
+  {
+   "fieldname": "program_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Program Name",
+   "options": "Program",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "hero_image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "program_abbreviation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Program Abbreviation"
+  },
+  {
+   "fieldname": "total_number_of_students",
+   "fieldtype": "Int",
+   "label": "Total number of students"
+  },
+  {
+   "fieldname": "students_in_groups",
+   "fieldtype": "Int",
+   "label": "Students in groups"
+  },
+  {
+   "fieldname": "students_out_of_groups",
+   "fieldtype": "Int",
+   "label": "Students Out Of Groups"
+  }
+ ],
+ "image_field": "hero_image",
+ "links": [],
+ "modified": "2023-03-03 00:22:46.258621",
+ "modified_by": "Administrator",
+ "module": "Education Contoral",
+ "name": "Number of students",
+ "naming_rule": "By script",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Academics User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Instructor",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Student",
+   "share": 1
+  }
+ ],
+ "search_fields": "program_name",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-28 01:27:53.929079",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_group",
+  "course",
+  "instructor",
+  "column_break_bpvzr",
+  "the_classes",
+  "days",
+  "from_time",
+  "to_time",
+  "room",
+  "instructor_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student Group",
+   "options": "Student Group"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Course",
+   "options": "Course"
+  },
+  {
+   "fieldname": "instructor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Instructor",
+   "options": "Instructor"
+  },
+  {
+   "fieldname": "the_classes",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "The Classes",
+   "options": "The Classes"
+  },
+  {
+   "fieldname": "days",
+   "fieldtype": "Select",
+   "label": "Days",
+   "options": "\nSaturday\nSunday\nMonday\nTuesday\nWednesday\nThursday"
+  },
+  {
+   "fetch_from": "the_classes.from_time",
+   "fieldname": "from_time",
+   "fieldtype": "Time",
+   "label": "From Time",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "the_classes.to_time",
+   "fieldname": "to_time",
+   "fieldtype": "Time",
+   "label": "To TIme",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "student_group.room",
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "Room",
+   "options": "Room",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_bpvzr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "instructor.instructor_name",
+   "fieldname": "instructor_name",
+   "fieldtype": "Data",
+   "label": "Instructor Name",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-28 02:23:57.371441",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "Scheduling Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
